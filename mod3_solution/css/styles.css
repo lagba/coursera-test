@@ -1,0 +1,66 @@
+/* Header */
+#header-nav {
+	background-color: #999999;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	margin-bottom: 0;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	border-top: 2px solid #000;
+	background-color: #fff;
+}
+#nav-list a {
+	color: #000;
+}
+#nav-list hr {
+	margin: 0;
+	border: 1px solid #000;
+}
+.navbar-brand h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #000;
+}
+/* End header */
+
+/* Main-Content */
+#main-content h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#content h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#main-content #content {
+	height: 1000px;
+	background-color: #999999;
+}
+#content p {
+	color: #000;
+}
+/* End Main-Content */
+
+/* Small devices only */
+@media (max-width: 767px) {
+	#content {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
+/* end small-devices only */
